@@ -16,9 +16,22 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+# env
 .env
 .env.*
-*.json
+
+# node / next
+node_modules/
+.next/
+out/
+dist/
+
+# firebase admin / service account keys
 *service*account*.json
 *ServiceKey*.json
-*firebase*admin*.json
+*firebase-admin*.json
+*firebase_admin*.json
+
+# misc
+.DS_Store
+
